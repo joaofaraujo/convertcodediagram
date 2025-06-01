@@ -123,14 +123,75 @@ def chain_from_terraform_with_icons(service_icons, filename_tf="infra/main.tf", 
     with open(filename_drawio, "w", encoding="utf-8") as f:
         f.write(xml)
 
+def chain_from_tfstate_with_icons(service_icons, filename_tfstate="infra/terraform.tfstate", filename_drawio="output_from_tfstate.drawio", use_generic_circle=True):
+    """
+    Lê o arquivo terraform_teste.tfstate, busca ícones correspondentes em icones.json (pelo campo resource) e gera um drawio.
+    Usa os dependencies para fazer os edges entre os elementos.
+    Se use_generic_circle=True, usa um círculo nativo do draw.io quando não encontrar ícone.
+    Se use_generic_circle=False, ignora recursos sem ícone.
+    """
+    with open(filename_tfstate, "r", encoding="utf-8") as f:
+        tfstate = json.load(f)
+
+    resources = tfstate.get("resources", [])
+    resource_id_map = {}
+    cells = []
+    edges = []
+    x = 80
+    y = 40
+    width = 40
+    height = 40
+    ids = []
+    for idx, res in enumerate(resources):
+        tipo = res.get("type")
+        nome = res.get("name")
+        resource_id = f"{tipo}.{nome}"
+        icon = get_icon_by_field("resource", service_icons, tipo)
+        if icon:
+            cell_id = f"n{idx}"
+            resource_id_map[resource_id] = cell_id
+            ids.append(cell_id)
+            svg_path = icon["svg_path"]
+            display_name = res.get("name")
+            with open(svg_path, "rb") as svg_file:
+                svg_data = svg_file.read()
+                svg_b64 = base64.b64encode(svg_data).decode("utf-8")
+            style = f'shape=image;image=data:image/svg+xml,{svg_b64};'
+            cells.append(make_cell(cell_id, display_name, x, y, width, height, style))
+            x += 120
+        elif use_generic_circle:
+            cell_id = f"n{idx}"
+            resource_id_map[resource_id] = cell_id
+            ids.append(cell_id)
+            style = 'ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;'
+            display_name = tipo
+            cells.append(make_cell(cell_id, display_name, x, y, width, height, style))
+            x += 120
+        # Se use_generic_circle=False e não achou ícone, ignora o recurso
+    # Agora, criar edges baseados em dependencies
+    for idx, res in enumerate(resources):
+        tipo = res.get("type")
+        nome = res.get("name")
+        resource_id = f"{tipo}.{nome}"
+        cell_id = resource_id_map.get(resource_id)
+        if not cell_id:
+            continue
+        for instance in res.get("instances", []):
+            dependencies = instance.get("dependencies", [])
+            for dep in dependencies:
+                dep_cell_id = resource_id_map.get(dep)
+                if dep_cell_id:
+                    edges.append(make_edge(f"e{len(edges)}", dep_cell_id, cell_id))
+    xml = f'''<mxfile>\n  <diagram name="Page-1" id="aws-chain">\n    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">\n      <root>\n        <mxCell id="0" />\n        <mxCell id="1" parent="0" />\n        {''.join(cells)}\n        {''.join(edges)}\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>\n'''
+    with open(filename_drawio, "w", encoding="utf-8") as f:
+        f.write(xml)
+
 def main():
-  
-  service_icons = []
-  with open("icones.json", "r", encoding="utf-8") as f:
+    service_icons = []
+    with open("icones.json", "r", encoding="utf-8") as f:
         service_icons = json.load(f)
-    
-  #chain_to_drawio(service_icons, "awslambda>awslambda>awsidentityaccessmanagementrole>amazonecsanywhere", "aws_chain_dynamic.drawio")
-  chain_from_terraform_with_icons(service_icons)
+    # Exemplo: use_generic_circle=True para usar círculo, False para ignorar recursos sem ícone
+    chain_from_tfstate_with_icons(service_icons, use_generic_circle=False)
 
 if __name__ == "__main__":
     main()

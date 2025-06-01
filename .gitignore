@@ -24,3 +24,5 @@ dist/
 .vscode/
 # Drawio and generated files
 *.drawio
+# Terraform state
+infra/terraform.tfstate

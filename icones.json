@@ -25,7 +25,7 @@
   },
   {
     "key": "amazonapigatewayendpoint",
-    "resource": "aws_api_gateway_resource",
+    "resource": "aws_api_gateway_integration",
     "svg_path": "icons_aws\\Resource-Icons_02072025\\Res_Networking-Content-Delivery\\Res_Amazon-API-Gateway_Endpoint_48.svg",
     "png_path": "icons_aws\\Resource-Icons_02072025\\Res_Networking-Content-Delivery\\Res_Amazon-API-Gateway_Endpoint_48.png"
   },
