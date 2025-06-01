@@ -21,6 +21,6 @@ python generate_drawio_dynamic.py --mode tfstate --input infra/terraform_teste.t
 ```
 
 - O parâmetro `--use-generic-circle` é opcional e, quando usado, desenha um círculo genérico para recursos sem ícone.
-- O parâmetro `--output` é opcional e define o nome do arquivo drawio de saída (padrão: `output_from_tf.drawio`).
+- O parâmetro `--output` é opcional e define o nome do arquivo drawio de saída (padrão: `solution_architect.drawio`).
 
 Abra o arquivo `.drawio` gerado no [draw.io](https://app.diagrams.net/) ou outro editor compatível para visualizar o diagrama.
