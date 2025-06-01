@@ -5,28 +5,6 @@ import os
 import glob
 import base64
 
-# AWS4_XML_URL = "https://raw.githubusercontent.com/jgraph/drawio/dev/src/main/webapp/templates/cloud/aws/aws_4.xml"
-
-# def fetch_service_icons():
-#     response = requests.get(AWS4_XML_URL)
-#     response.raise_for_status()
-#     xml_content = response.text
-#     tree = ET.ElementTree(ET.fromstring(xml_content))
-#     root = tree.getroot()
-#     icons = {}
-#     for shape in root.findall(".//shape"):
-#         name = shape.attrib.get("name", "")
-#         key = re.sub(r'[^a-z0-9]', '', name.lower().replace("amazon ", "").replace("aws ", ""))
-#         if not key:
-#             continue
-#         icons[key] = {
-#             "shape": "mxgraph.aws4.resourceIcon",
-#             "resIcon": f"mxgraph.aws4.{key}",
-#             "fillColor": "#FFFFFF"
-#         }
-#     icons["lambda"] = {"shape": "mxgraph.aws3.lambda_function", "fillColor": "#F58534"}
-#     return icons
-
 def fetch_local_service_icons():
     icons = {}
     svg_files = glob.glob(os.path.join("icons_aws", "**", "*.svg"), recursive=True)
@@ -95,54 +73,8 @@ def chain_to_drawio(chain, filename="output.drawio"):
     with open(filename, "w", encoding="utf-8") as f:
         f.write(xml)
 
-def generate_icons_markdown(filename="icones.md"):
-    icons = fetch_local_service_icons()
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write("| Referência (key) | Nome do arquivo SVG | Preview |\n")
-        f.write("|---|---|---|\n")
-        for key, icon in sorted(icons.items()):
-            svg_path = icon["svg_path"]
-            display_name = os.path.basename(svg_path)
-            # Troca extensão para .png para o preview
-            png_path = svg_path[:-4] + ".png" if svg_path.lower().endswith(".svg") else svg_path
-            # Caminho relativo para o markdown, sempre com barra normal
-            rel_png_path = os.path.relpath(png_path).replace("\\", "/")
-            f.write(f"| {key} | {display_name} | ![]({rel_png_path}) |\n")
-
-def delete_16_32_64_icons(base_dir="icons_aws"):
-    """
-    Remove all files and folders with '16', '32' or '64' in their names under the given base_dir.
-    Also removes folders named exactly '16', '32' or '64' and their contents.
-    """
-    for root, dirs, files in os.walk(base_dir, topdown=False):
-        # Remove files with 16, 32 or 64 in their name
-        for file in files:
-            if any(f"_{size}" in file for size in ["16", "32", "64"]):
-                file_path = os.path.join(root, file)
-                try:
-                    os.remove(file_path)
-                    print(f"Removido: {file_path}")
-                except Exception as e:
-                    print(f"Erro ao remover {file_path}: {e}")
-        # Remove folders named exatamente '16', '32' ou '64' e todo o seu conteúdo
-        for dir in dirs:
-            if dir in ["16", "32", "64"]:
-                dir_path = os.path.join(root, dir)
-                import shutil
-                try:
-                    shutil.rmtree(dir_path)
-                    print(f"Pasta removida (com conteúdo): {dir_path}")
-                except Exception as e:
-                    print(f"Erro ao remover pasta {dir_path}: {e}")
-
 def main():
-    # print("Lista de serviços disponíveis no service_icons:")
-    # for key in sorted(service_icons.keys()):
-    #     if "lambda" in key or "ecs" in key:
-    #         print(key)
-    # chain_to_drawio("awslambda>awslambda>amazonecsanywhere", "aws_chain_dynamic.drawio")
-    generate_icons_markdown("icones.md")
-    #delete_16_32_64_icons()
+  chain_to_drawio("awslambda>awslambda>awsidentityaccessmanagementrole>amazonecsanywhere", "aws_chain_dynamic.drawio")
 
 if __name__ == "__main__":
     main()
