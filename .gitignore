@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+.eggs/
+*.egg
+*.log
+*.sqlite3
+*.db
+*.env
+.env*
+.venv/
+venv/
+build/
+dist/
+*.bak
+*.swp
+.DS_Store
+.idea/
+.vscode/
+# Drawio and generated files
+*.drawio
