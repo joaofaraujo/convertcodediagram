@@ -1,0 +1,3438 @@
+[
+  {
+    "key": "alert48dark",
+    "resource": ""
+  },
+  {
+    "key": "alert48light",
+    "resource": ""
+  },
+  {
+    "key": "alexaforbusiness",
+    "resource": ""
+  },
+  {
+    "key": "amazonapigateway",
+    "resource": "aws_api_gateway_rest_api"
+  },
+  {
+    "key": "amazonapigatewayendpoint",
+    "resource": "aws_api_gateway_method"
+  },
+  {
+    "key": "amazonappflow",
+    "resource": ""
+  },
+  {
+    "key": "amazonapplicationrecoverycontroller",
+    "resource": ""
+  },
+  {
+    "key": "amazonappstream2",
+    "resource": ""
+  },
+  {
+    "key": "amazonathena",
+    "resource": ""
+  },
+  {
+    "key": "amazonathenadatasourceconnectors",
+    "resource": ""
+  },
+  {
+    "key": "amazonaugmentedaia2i",
+    "resource": ""
+  },
+  {
+    "key": "amazonaurora",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroraamazonaurorainstancealternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroraamazonrdsinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroraamazonrdsinstanceaternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonaurorainstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroramariadbinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroramariadbinstancealternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroramysqlinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroramysqlinstancealternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroraoracleinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroraoracleinstancealternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonaurorapiopsinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonaurorapostgresqlinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonaurorapostgresqlinstancealternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonaurorasqlserverinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonaurorasqlserverinstancealternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonauroratrustedlanguageextensionsforpostgresql",
+    "resource": ""
+  },
+  {
+    "key": "amazonbedrock",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraket",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketchandelier",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketchip",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketembeddedsimulator",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketmanagedsimulator",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketnoisesimulator",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketqpu",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketsimulator",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketsimulator1",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketsimulator2",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketsimulator3",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketsimulator4",
+    "resource": ""
+  },
+  {
+    "key": "amazonbraketstatevector",
+    "resource": ""
+  },
+  {
+    "key": "amazonbrakettensornetwork",
+    "resource": ""
+  },
+  {
+    "key": "amazonchime",
+    "resource": ""
+  },
+  {
+    "key": "amazonchimesdk",
+    "resource": ""
+  },
+  {
+    "key": "amazonclouddirectory",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudfront",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudfrontdownloaddistribution",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudfrontedgelocation",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudfrontfunctions",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudfrontstreamingdistribution",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudsearch",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudsearchsearchdocuments",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatch",
+    "resource": "aws_cloudwatch_log_group"
+  },
+  {
+    "key": "amazoncloudwatchalarm",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchcrossaccountobservability",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchdataprotection",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatcheventeventbased",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatcheventtimebased",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchevidently",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchlogs",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchmetricsinsights",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchrule",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchrum",
+    "resource": ""
+  },
+  {
+    "key": "amazoncloudwatchsynthetics",
+    "resource": ""
+  },
+  {
+    "key": "amazoncodecatalyst",
+    "resource": ""
+  },
+  {
+    "key": "amazoncodeguru",
+    "resource": ""
+  },
+  {
+    "key": "amazoncodewhisperer",
+    "resource": ""
+  },
+  {
+    "key": "amazoncognito",
+    "resource": ""
+  },
+  {
+    "key": "amazoncomprehend",
+    "resource": ""
+  },
+  {
+    "key": "amazoncomprehendmedical",
+    "resource": ""
+  },
+  {
+    "key": "amazonconnect",
+    "resource": ""
+  },
+  {
+    "key": "amazoncorretto",
+    "resource": ""
+  },
+  {
+    "key": "amazondatafirehose",
+    "resource": ""
+  },
+  {
+    "key": "amazondatazone",
+    "resource": ""
+  },
+  {
+    "key": "amazondatazonebusinessdatacatalog",
+    "resource": ""
+  },
+  {
+    "key": "amazondatazonedataportal",
+    "resource": ""
+  },
+  {
+    "key": "amazondatazonedataprojects",
+    "resource": ""
+  },
+  {
+    "key": "amazondcv",
+    "resource": ""
+  },
+  {
+    "key": "amazondetective",
+    "resource": ""
+  },
+  {
+    "key": "amazondevopsguru",
+    "resource": ""
+  },
+  {
+    "key": "amazondevopsguruinsights",
+    "resource": ""
+  },
+  {
+    "key": "amazondocumentdb",
+    "resource": ""
+  },
+  {
+    "key": "amazondocumentdbelasticclusters",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodb",
+    "resource": "aws_dynamodb_table"
+  },
+  {
+    "key": "amazondynamodbamazondynamodbaccelerator",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbattribute",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbattributes",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbglobalsecondaryindex",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbitem",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbitems",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbstandardaccesstableclass",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbstandardinfrequentaccesstableclass",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbstream",
+    "resource": ""
+  },
+  {
+    "key": "amazondynamodbtable",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2ami",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2autoscaling",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2awsmicroserviceextractorfornet",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2dbinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2elasticipaddress",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2imagebuilder",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2instance",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2instances",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2instancewithcloudwatch",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2rescue",
+    "resource": ""
+  },
+  {
+    "key": "amazonec2spotinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonecsanywhere",
+    "resource": ""
+  },
+  {
+    "key": "amazonefs",
+    "resource": ""
+  },
+  {
+    "key": "amazoneksanywhere",
+    "resource": ""
+  },
+  {
+    "key": "amazonekscloud",
+    "resource": ""
+  },
+  {
+    "key": "amazoneksdistro",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticache",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticachecachenode",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticacheelasticacheformemcached",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticacheelasticacheforredis",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticacheelasticacheforvalkey",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticblockstore",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticblockstoreamazondatalifecyclemanager",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticblockstoremultiplevolumes",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticblockstoresnapshot",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticblockstorevolume",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticblockstorevolumegp3",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerregistry",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerregistryimage",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerregistryregistry",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerservicecontainer1",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerservicecontainer2",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerservicecontainer3",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerservicecopiiotcli",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerserviceecsserviceconnect",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerserviceservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticcontainerservicetask",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticfilesystemefsintelligenttiering",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticfilesystemefsonezone",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticfilesystemefsonezoneinfrequentaccess",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticfilesystemefsstandard",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticfilesystemefsstandardinfrequentaccess",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticfilesystemelasticthroughput",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticfilesystemfilesystem",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticinference",
+    "resource": ""
+  },
+  {
+    "key": "amazonelastickubernetesservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonelastickubernetesserviceeksonoutposts",
+    "resource": ""
+  },
+  {
+    "key": "amazonelastictranscoder",
+    "resource": ""
+  },
+  {
+    "key": "amazonelasticvmwareservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonemr",
+    "resource": ""
+  },
+  {
+    "key": "amazonemrcluster",
+    "resource": ""
+  },
+  {
+    "key": "amazonemremrengine",
+    "resource": ""
+  },
+  {
+    "key": "amazonemrhdfscluster",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridge",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgecustomeventbus",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgedefaulteventbus",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgeevent",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgepipes",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgerule",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgesaaspartnerevent",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgescheduler",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgeschema",
+    "resource": ""
+  },
+  {
+    "key": "amazoneventbridgeschemaregistry",
+    "resource": ""
+  },
+  {
+    "key": "amazonfilecache",
+    "resource": ""
+  },
+  {
+    "key": "amazonfilecachehybridnfslinkeddatasets",
+    "resource": ""
+  },
+  {
+    "key": "amazonfilecacheonpremisesnfslinkeddatasets",
+    "resource": ""
+  },
+  {
+    "key": "amazonfilecaches3linkeddatasets",
+    "resource": ""
+  },
+  {
+    "key": "amazonfinspace",
+    "resource": ""
+  },
+  {
+    "key": "amazonforecast",
+    "resource": ""
+  },
+  {
+    "key": "amazonfrauddetector",
+    "resource": ""
+  },
+  {
+    "key": "amazonfsx",
+    "resource": ""
+  },
+  {
+    "key": "amazonfsxforlustre",
+    "resource": ""
+  },
+  {
+    "key": "amazonfsxfornetappontap",
+    "resource": ""
+  },
+  {
+    "key": "amazonfsxforopenzfs",
+    "resource": ""
+  },
+  {
+    "key": "amazonfsxforwfs",
+    "resource": ""
+  },
+  {
+    "key": "amazongamelift",
+    "resource": ""
+  },
+  {
+    "key": "amazonguardduty",
+    "resource": ""
+  },
+  {
+    "key": "amazoninspector",
+    "resource": ""
+  },
+  {
+    "key": "amazoninspectoragent",
+    "resource": ""
+  },
+  {
+    "key": "amazoninteractivevideoservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonkendra",
+    "resource": ""
+  },
+  {
+    "key": "amazonkeyspaces",
+    "resource": ""
+  },
+  {
+    "key": "amazonkinesis",
+    "resource": ""
+  },
+  {
+    "key": "amazonkinesisdatastreams",
+    "resource": ""
+  },
+  {
+    "key": "amazonkinesisvideostreams",
+    "resource": ""
+  },
+  {
+    "key": "amazonlex",
+    "resource": ""
+  },
+  {
+    "key": "amazonlightsail",
+    "resource": ""
+  },
+  {
+    "key": "amazonlightsailforresearch",
+    "resource": ""
+  },
+  {
+    "key": "amazonlocationservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonlocationservicegeofence",
+    "resource": ""
+  },
+  {
+    "key": "amazonlocationservicemap",
+    "resource": ""
+  },
+  {
+    "key": "amazonlocationserviceplace",
+    "resource": ""
+  },
+  {
+    "key": "amazonlocationserviceroutes",
+    "resource": ""
+  },
+  {
+    "key": "amazonlocationservicetrack",
+    "resource": ""
+  },
+  {
+    "key": "amazonlookoutforequipment",
+    "resource": ""
+  },
+  {
+    "key": "amazonlookoutformetrics",
+    "resource": ""
+  },
+  {
+    "key": "amazonlookoutforvision",
+    "resource": ""
+  },
+  {
+    "key": "amazonmacie",
+    "resource": ""
+  },
+  {
+    "key": "amazonmanagedblockchain",
+    "resource": ""
+  },
+  {
+    "key": "amazonmanagedblockchainblockchain",
+    "resource": ""
+  },
+  {
+    "key": "amazonmanagedgrafana",
+    "resource": ""
+  },
+  {
+    "key": "amazonmanagedserviceforapacheflink",
+    "resource": ""
+  },
+  {
+    "key": "amazonmanagedserviceforprometheus",
+    "resource": ""
+  },
+  {
+    "key": "amazonmanagedstreamingforapachekafka",
+    "resource": ""
+  },
+  {
+    "key": "amazonmanagedworkflowsforapacheairflow",
+    "resource": ""
+  },
+  {
+    "key": "amazonmemorydb",
+    "resource": ""
+  },
+  {
+    "key": "amazonmonitron",
+    "resource": ""
+  },
+  {
+    "key": "amazonmq",
+    "resource": ""
+  },
+  {
+    "key": "amazonmqbroker",
+    "resource": ""
+  },
+  {
+    "key": "amazonmskamazonmskconnect",
+    "resource": ""
+  },
+  {
+    "key": "amazonneptune",
+    "resource": ""
+  },
+  {
+    "key": "amazonnova",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchserviceclusteradministratornode",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchservicedatanode",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchserviceindex",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchserviceobservability",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchserviceopensearchdashboards",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchserviceopensearchingestion",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchservicetraces",
+    "resource": ""
+  },
+  {
+    "key": "amazonopensearchserviceultrawarmnode",
+    "resource": ""
+  },
+  {
+    "key": "amazonpersonalize",
+    "resource": ""
+  },
+  {
+    "key": "amazonpinpoint",
+    "resource": ""
+  },
+  {
+    "key": "amazonpinpointapis",
+    "resource": ""
+  },
+  {
+    "key": "amazonpinpointjourney",
+    "resource": ""
+  },
+  {
+    "key": "amazonpolly",
+    "resource": ""
+  },
+  {
+    "key": "amazonq",
+    "resource": ""
+  },
+  {
+    "key": "amazonquantumledgerdatabase",
+    "resource": ""
+  },
+  {
+    "key": "amazonquicksight",
+    "resource": ""
+  },
+  {
+    "key": "amazonquicksightpaginatedreports",
+    "resource": ""
+  },
+  {
+    "key": "amazonrds",
+    "resource": ""
+  },
+  {
+    "key": "amazonrdsbluegreendeployments",
+    "resource": ""
+  },
+  {
+    "key": "amazonrdsmultiaz",
+    "resource": ""
+  },
+  {
+    "key": "amazonrdsmultiazdbcluster",
+    "resource": ""
+  },
+  {
+    "key": "amazonrdsoptimizedwrites",
+    "resource": ""
+  },
+  {
+    "key": "amazonrdsproxyinstance",
+    "resource": ""
+  },
+  {
+    "key": "amazonrdsproxyinstancealternate",
+    "resource": ""
+  },
+  {
+    "key": "amazonrdstrustedlanguageextensionsforpostgresql",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshift",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftautocopy",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftdatasharinggovernance",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftdensecomputenode",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftdensestoragenode",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftml",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftqueryeditorv20",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftra3",
+    "resource": ""
+  },
+  {
+    "key": "amazonredshiftstreamingingestion",
+    "resource": ""
+  },
+  {
+    "key": "amazonrekognition",
+    "resource": ""
+  },
+  {
+    "key": "amazonrekognitionimage",
+    "resource": ""
+  },
+  {
+    "key": "amazonrekognitionvideo",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53hostedzone",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53readinesschecks",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53resolver",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53resolverdnsfirewall",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53resolverquerylogging",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53routetable",
+    "resource": ""
+  },
+  {
+    "key": "amazonroute53routingcontrols",
+    "resource": ""
+  },
+  {
+    "key": "amazons3onoutposts",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemaker",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakerai",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakercanvas",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakergeospatialml",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakergroundtruth",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakermodel",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakernotebook",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakershadowtesting",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakerstudiolab",
+    "resource": ""
+  },
+  {
+    "key": "amazonsagemakertrain",
+    "resource": ""
+  },
+  {
+    "key": "amazonsecuritylake",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimpleemailservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimpleemailserviceemail",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplenotificationservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplenotificationserviceemailnotification",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplenotificationservicehttpnotification",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplenotificationservicetopic",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplequeueservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplequeueservicemessage",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplequeueservicequeue",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservice",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservicebucket",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservicebucketwithobjects",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservicedirectorybucket",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservicegeneralaccesspoints",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageserviceglacier",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageserviceglacierarchive",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageserviceglaciervault",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageserviceobject",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3batchoperations",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3expressonezone",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3glacierdeeparchive",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3glacierflexibleretrieval",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3glacierinstantretrieval",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3intelligenttiering",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3multiregionaccesspoints",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3objectlambda",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3objectlambdaaccesspoints",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3objectlock",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3onezoneia",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3onoutposts",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3replication",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3replicationtimecontrol",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3select",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3standard",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3standardia",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3storagelens",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservices3tables",
+    "resource": ""
+  },
+  {
+    "key": "amazonsimplestorageservicevpcaccesspoints",
+    "resource": ""
+  },
+  {
+    "key": "amazontextract",
+    "resource": ""
+  },
+  {
+    "key": "amazontextractanalyzelending",
+    "resource": ""
+  },
+  {
+    "key": "amazontimestream",
+    "resource": ""
+  },
+  {
+    "key": "amazontranscribe",
+    "resource": ""
+  },
+  {
+    "key": "amazontranslate",
+    "resource": ""
+  },
+  {
+    "key": "amazonverifiedpermissions",
+    "resource": ""
+  },
+  {
+    "key": "amazonvirtualprivatecloud",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpccarriergateway",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpccustomergateway",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcelasticnetworkadapter",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcelasticnetworkinterface",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcendpoints",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcflowlogs",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcinternetgateway",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpclattice",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcnatgateway",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcnetworkaccessanalyzer",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcnetworkaccesscontrollist",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcpeeringconnection",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcreachabilityanalyzer",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcrouter",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpctrafficmirroring",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcvirtualprivatecloudvpc",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcvpnconnection",
+    "resource": ""
+  },
+  {
+    "key": "amazonvpcvpngateway",
+    "resource": ""
+  },
+  {
+    "key": "amazonworkdocs",
+    "resource": ""
+  },
+  {
+    "key": "amazonworkdocssdk",
+    "resource": ""
+  },
+  {
+    "key": "amazonworkmail",
+    "resource": ""
+  },
+  {
+    "key": "amazonworkspacesfamily",
+    "resource": ""
+  },
+  {
+    "key": "amazonworkspacesfamilyamazonworkspaces",
+    "resource": ""
+  },
+  {
+    "key": "amazonworkspacesfamilyamazonworkspacescore",
+    "resource": ""
+  },
+  {
+    "key": "amazonworkspacesfamilyamazonworkspacessecurebrowser",
+    "resource": ""
+  },
+  {
+    "key": "apachemxnetonaws",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryanalytics",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryapplicationintegration",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryartificialintelligence",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryblockchain",
+    "resource": ""
+  },
+  {
+    "key": "archcategorybusinessapplications",
+    "resource": ""
+  },
+  {
+    "key": "archcategorycloudfinancialmanagement",
+    "resource": ""
+  },
+  {
+    "key": "archcategorycompute",
+    "resource": ""
+  },
+  {
+    "key": "archcategorycontactcenter",
+    "resource": ""
+  },
+  {
+    "key": "archcategorycontainers",
+    "resource": ""
+  },
+  {
+    "key": "archcategorycustomerenablement",
+    "resource": ""
+  },
+  {
+    "key": "archcategorydatabase",
+    "resource": ""
+  },
+  {
+    "key": "archcategorydevelopertools",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryendusercomputing",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryfrontendwebmobile",
+    "resource": ""
+  },
+  {
+    "key": "archcategorygames",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryinternetofthings",
+    "resource": ""
+  },
+  {
+    "key": "archcategorymanagementgovernance",
+    "resource": ""
+  },
+  {
+    "key": "archcategorymediaservices",
+    "resource": ""
+  },
+  {
+    "key": "archcategorymigrationmodernization",
+    "resource": ""
+  },
+  {
+    "key": "archcategorynetworkingcontentdelivery",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryquantumtechnologies",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryrobotics",
+    "resource": ""
+  },
+  {
+    "key": "archcategorysatellite",
+    "resource": ""
+  },
+  {
+    "key": "archcategorysecurityidentitycompliance",
+    "resource": ""
+  },
+  {
+    "key": "archcategoryserverless",
+    "resource": ""
+  },
+  {
+    "key": "archcategorystorage",
+    "resource": ""
+  },
+  {
+    "key": "authenticateduser48dark",
+    "resource": ""
+  },
+  {
+    "key": "authenticateduser48light",
+    "resource": ""
+  },
+  {
+    "key": "awsactivate",
+    "resource": ""
+  },
+  {
+    "key": "awsamplify",
+    "resource": ""
+  },
+  {
+    "key": "awsamplifyawsamplifystudio",
+    "resource": ""
+  },
+  {
+    "key": "awsappconfig",
+    "resource": ""
+  },
+  {
+    "key": "awsappfabric",
+    "resource": ""
+  },
+  {
+    "key": "awsapplicationautoscaling",
+    "resource": ""
+  },
+  {
+    "key": "awsapplicationdiscoveryservice",
+    "resource": ""
+  },
+  {
+    "key": "awsapplicationdiscoveryserviceawsagentlesscollector",
+    "resource": ""
+  },
+  {
+    "key": "awsapplicationdiscoveryserviceawsdiscoveryagent",
+    "resource": ""
+  },
+  {
+    "key": "awsapplicationdiscoveryservicemigrationevaluatorcollector",
+    "resource": ""
+  },
+  {
+    "key": "awsapplicationmigrationservice",
+    "resource": ""
+  },
+  {
+    "key": "awsappmesh",
+    "resource": ""
+  },
+  {
+    "key": "awsappmeshmesh",
+    "resource": ""
+  },
+  {
+    "key": "awsappmeshvirtualgateway",
+    "resource": ""
+  },
+  {
+    "key": "awsappmeshvirtualnode",
+    "resource": ""
+  },
+  {
+    "key": "awsappmeshvirtualrouter",
+    "resource": ""
+  },
+  {
+    "key": "awsappmeshvirtualservice",
+    "resource": ""
+  },
+  {
+    "key": "awsapprunner",
+    "resource": ""
+  },
+  {
+    "key": "awsappstudio",
+    "resource": ""
+  },
+  {
+    "key": "awsappsync",
+    "resource": ""
+  },
+  {
+    "key": "awsartifact",
+    "resource": ""
+  },
+  {
+    "key": "awsauditmanager",
+    "resource": ""
+  },
+  {
+    "key": "awsautoscaling",
+    "resource": ""
+  },
+  {
+    "key": "awsb2bdatainterchange",
+    "resource": ""
+  },
+  {
+    "key": "awsbackintagent",
+    "resource": ""
+  },
+  {
+    "key": "awsbackup",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupauditmanager",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupawsbackupforawscloudformation",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupawsbackupsupportforamazonfsxfornetappontap",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupawsbackupsupportforamazons3",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupawsbackupsupportforvmwareworkloads",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupbackupplan",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupbackuprestore",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupbackupvault",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupcompliancereporting",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupcompute",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupdatabase",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupgateway",
+    "resource": ""
+  },
+  {
+    "key": "awsbackuplegalhold",
+    "resource": ""
+  },
+  {
+    "key": "awsbackuprecoverypointobjective",
+    "resource": ""
+  },
+  {
+    "key": "awsbackuprecoverytimeobjective",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupstorage",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupvaultlock",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupvirtualmachine",
+    "resource": ""
+  },
+  {
+    "key": "awsbackupvirtualmachinemonitor",
+    "resource": ""
+  },
+  {
+    "key": "awsbatch",
+    "resource": ""
+  },
+  {
+    "key": "awsbillingconductor",
+    "resource": ""
+  },
+  {
+    "key": "awsbudgets",
+    "resource": ""
+  },
+  {
+    "key": "awscertificatemanager",
+    "resource": ""
+  },
+  {
+    "key": "awscertificatemanagercertificateauthority",
+    "resource": ""
+  },
+  {
+    "key": "awschatbot",
+    "resource": ""
+  },
+  {
+    "key": "awscleanrooms",
+    "resource": ""
+  },
+  {
+    "key": "awsclientvpn",
+    "resource": ""
+  },
+  {
+    "key": "awscloud9",
+    "resource": ""
+  },
+  {
+    "key": "awscloud9cloud9",
+    "resource": ""
+  },
+  {
+    "key": "awscloudcontrolapi",
+    "resource": ""
+  },
+  {
+    "key": "awsclouddevelopmentkit",
+    "resource": ""
+  },
+  {
+    "key": "awsclouddigitalinterface",
+    "resource": ""
+  },
+  {
+    "key": "awscloudformation",
+    "resource": ""
+  },
+  {
+    "key": "awscloudformationchangeset",
+    "resource": ""
+  },
+  {
+    "key": "awscloudformationstack",
+    "resource": ""
+  },
+  {
+    "key": "awscloudformationtemplate",
+    "resource": ""
+  },
+  {
+    "key": "awscloudhsm",
+    "resource": ""
+  },
+  {
+    "key": "awscloudmap",
+    "resource": ""
+  },
+  {
+    "key": "awscloudmapnamespace",
+    "resource": ""
+  },
+  {
+    "key": "awscloudmapresource",
+    "resource": ""
+  },
+  {
+    "key": "awscloudmapservice",
+    "resource": ""
+  },
+  {
+    "key": "awscloudshell",
+    "resource": ""
+  },
+  {
+    "key": "awscloudtrail",
+    "resource": ""
+  },
+  {
+    "key": "awscloudtrailcloudtraillake",
+    "resource": ""
+  },
+  {
+    "key": "awscloudwan",
+    "resource": ""
+  },
+  {
+    "key": "awscloudwancorenetworkedge",
+    "resource": ""
+  },
+  {
+    "key": "awscloudwansegmentnetwork",
+    "resource": ""
+  },
+  {
+    "key": "awscloudwantransitgatewayroutetableattachment",
+    "resource": ""
+  },
+  {
+    "key": "awscodeartifact",
+    "resource": ""
+  },
+  {
+    "key": "awscodebuild",
+    "resource": ""
+  },
+  {
+    "key": "awscodecommit",
+    "resource": ""
+  },
+  {
+    "key": "awscodedeploy",
+    "resource": ""
+  },
+  {
+    "key": "awscodepipeline",
+    "resource": ""
+  },
+  {
+    "key": "awscommandlineinterface",
+    "resource": ""
+  },
+  {
+    "key": "awscomputeoptimizer",
+    "resource": ""
+  },
+  {
+    "key": "awsconfig",
+    "resource": ""
+  },
+  {
+    "key": "awsconsolemobileapplication",
+    "resource": ""
+  },
+  {
+    "key": "awscontroltower",
+    "resource": ""
+  },
+  {
+    "key": "awscostandusagereport",
+    "resource": ""
+  },
+  {
+    "key": "awscostexplorer",
+    "resource": ""
+  },
+  {
+    "key": "awsdatabasemigrationservice",
+    "resource": ""
+  },
+  {
+    "key": "awsdatabasemigrationservicedatabasemigrationworkfloworjob",
+    "resource": ""
+  },
+  {
+    "key": "awsdataexchange",
+    "resource": ""
+  },
+  {
+    "key": "awsdataexchangeforapis",
+    "resource": ""
+  },
+  {
+    "key": "awsdatasync",
+    "resource": ""
+  },
+  {
+    "key": "awsdatasyncagent",
+    "resource": ""
+  },
+  {
+    "key": "awsdatasyncdiscovery",
+    "resource": ""
+  },
+  {
+    "key": "awsdatatransferterminal",
+    "resource": ""
+  },
+  {
+    "key": "awsdeadlinecloud",
+    "resource": ""
+  },
+  {
+    "key": "awsdeepcomposer",
+    "resource": ""
+  },
+  {
+    "key": "awsdeeplearningamis",
+    "resource": ""
+  },
+  {
+    "key": "awsdeeplearningcontainers",
+    "resource": ""
+  },
+  {
+    "key": "awsdeeplens",
+    "resource": ""
+  },
+  {
+    "key": "awsdeepracer",
+    "resource": ""
+  },
+  {
+    "key": "awsdevicefarm",
+    "resource": ""
+  },
+  {
+    "key": "awsdirectconnect",
+    "resource": ""
+  },
+  {
+    "key": "awsdirectconnectgateway",
+    "resource": ""
+  },
+  {
+    "key": "awsdirectoryservice",
+    "resource": ""
+  },
+  {
+    "key": "awsdirectoryserviceadconnector",
+    "resource": ""
+  },
+  {
+    "key": "awsdirectoryserviceawsmanagedmicrosoftad",
+    "resource": ""
+  },
+  {
+    "key": "awsdirectoryservicesimplead",
+    "resource": ""
+  },
+  {
+    "key": "awsdistroforopentelemetry",
+    "resource": ""
+  },
+  {
+    "key": "awselasticbeanstalk",
+    "resource": ""
+  },
+  {
+    "key": "awselasticbeanstalkapplication",
+    "resource": ""
+  },
+  {
+    "key": "awselasticbeanstalkdeployment",
+    "resource": ""
+  },
+  {
+    "key": "awselasticdisasterrecovery",
+    "resource": ""
+  },
+  {
+    "key": "awselementalappliancessoftware",
+    "resource": ""
+  },
+  {
+    "key": "awselementalconductor",
+    "resource": ""
+  },
+  {
+    "key": "awselementaldelta",
+    "resource": ""
+  },
+  {
+    "key": "awselementallink",
+    "resource": ""
+  },
+  {
+    "key": "awselementallive",
+    "resource": ""
+  },
+  {
+    "key": "awselementalmediaconnect",
+    "resource": ""
+  },
+  {
+    "key": "awselementalmediaconnectmediaconnectgateway",
+    "resource": ""
+  },
+  {
+    "key": "awselementalmediaconvert",
+    "resource": ""
+  },
+  {
+    "key": "awselementalmedialive",
+    "resource": ""
+  },
+  {
+    "key": "awselementalmediapackage",
+    "resource": ""
+  },
+  {
+    "key": "awselementalmediastore",
+    "resource": ""
+  },
+  {
+    "key": "awselementalmediatailor",
+    "resource": ""
+  },
+  {
+    "key": "awselementalserver",
+    "resource": ""
+  },
+  {
+    "key": "awsendusermessaging",
+    "resource": ""
+  },
+  {
+    "key": "awsentityresolution",
+    "resource": ""
+  },
+  {
+    "key": "awsexpressworkflows",
+    "resource": ""
+  },
+  {
+    "key": "awsfargate",
+    "resource": ""
+  },
+  {
+    "key": "awsfaultinjectionservice",
+    "resource": ""
+  },
+  {
+    "key": "awsfirewallmanager",
+    "resource": ""
+  },
+  {
+    "key": "awsglobalaccelerator",
+    "resource": ""
+  },
+  {
+    "key": "awsglue",
+    "resource": ""
+  },
+  {
+    "key": "awsglueawsglueforray",
+    "resource": ""
+  },
+  {
+    "key": "awsgluecrawler",
+    "resource": ""
+  },
+  {
+    "key": "awsgluedatabrew",
+    "resource": ""
+  },
+  {
+    "key": "awsgluedatacatalog",
+    "resource": ""
+  },
+  {
+    "key": "awsgluedataquality",
+    "resource": ""
+  },
+  {
+    "key": "awsgroundstation",
+    "resource": ""
+  },
+  {
+    "key": "awshealthdashboard",
+    "resource": ""
+  },
+  {
+    "key": "awshealthimaging",
+    "resource": ""
+  },
+  {
+    "key": "awshealthlake",
+    "resource": ""
+  },
+  {
+    "key": "awshealthomics",
+    "resource": ""
+  },
+  {
+    "key": "awshealthscribe",
+    "resource": ""
+  },
+  {
+    "key": "awsiamidentitycenter",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementaddon",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementawssts",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementawsstsalternate",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementdataencryptionkey",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementencrypteddata",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementiamaccessanalyzer",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementiamrolesanywhere",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementlongtermsecuritycredential",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementmfatoken",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementpermissions",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityaccessmanagementrole",
+    "resource": "aws_iam_role"
+  },
+  {
+    "key": "awsidentityaccessmanagementtemporarysecuritycredential",
+    "resource": ""
+  },
+  {
+    "key": "awsidentityandaccessmanagement",
+    "resource": ""
+  },
+  {
+    "key": "awsinfrastructurecomposer",
+    "resource": ""
+  },
+  {
+    "key": "awsiotaction",
+    "resource": ""
+  },
+  {
+    "key": "awsiotactuator",
+    "resource": ""
+  },
+  {
+    "key": "awsiotalexaenableddevice",
+    "resource": ""
+  },
+  {
+    "key": "awsiotalexaskill",
+    "resource": ""
+  },
+  {
+    "key": "awsiotalexavoiceservice",
+    "resource": ""
+  },
+  {
+    "key": "awsiotanalytics",
+    "resource": ""
+  },
+  {
+    "key": "awsiotanalyticschannel",
+    "resource": ""
+  },
+  {
+    "key": "awsiotanalyticsdataset",
+    "resource": ""
+  },
+  {
+    "key": "awsiotanalyticsdatastore",
+    "resource": ""
+  },
+  {
+    "key": "awsiotanalyticsnotebook",
+    "resource": ""
+  },
+  {
+    "key": "awsiotanalyticspipeline",
+    "resource": ""
+  },
+  {
+    "key": "awsiotbutton",
+    "resource": ""
+  },
+  {
+    "key": "awsiotcertificate",
+    "resource": ""
+  },
+  {
+    "key": "awsiotcore",
+    "resource": ""
+  },
+  {
+    "key": "awsiotcoredeviceadvisor",
+    "resource": ""
+  },
+  {
+    "key": "awsiotcoredevicelocation",
+    "resource": ""
+  },
+  {
+    "key": "awsiotdesiredstate",
+    "resource": ""
+  },
+  {
+    "key": "awsiotdevicedefender",
+    "resource": ""
+  },
+  {
+    "key": "awsiotdevicedefenderiotdevicejobs",
+    "resource": ""
+  },
+  {
+    "key": "awsiotdevicegateway",
+    "resource": ""
+  },
+  {
+    "key": "awsiotdevicemanagement",
+    "resource": ""
+  },
+  {
+    "key": "awsiotdevicemanagementfleethub",
+    "resource": ""
+  },
+  {
+    "key": "awsiotdevicetester",
+    "resource": ""
+  },
+  {
+    "key": "awsiotecho",
+    "resource": ""
+  },
+  {
+    "key": "awsiotevents",
+    "resource": ""
+  },
+  {
+    "key": "awsiotexpresslink",
+    "resource": ""
+  },
+  {
+    "key": "awsiotfiretv",
+    "resource": ""
+  },
+  {
+    "key": "awsiotfiretvstick",
+    "resource": ""
+  },
+  {
+    "key": "awsiotfleetwise",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrass",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrassartifact",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrasscomponent",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrasscomponentmachinelearning",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrasscomponentnucleus",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrasscomponentprivate",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrasscomponentpublic",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrassconnector",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrassinterprocesscommunication",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrassprotocol",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrassrecipe",
+    "resource": ""
+  },
+  {
+    "key": "awsiotgreengrassstreammanager",
+    "resource": ""
+  },
+  {
+    "key": "awsiothardwareboard",
+    "resource": ""
+  },
+  {
+    "key": "awsiothttp2protocol",
+    "resource": ""
+  },
+  {
+    "key": "awsiothttpprotocol",
+    "resource": ""
+  },
+  {
+    "key": "awsiotlambdafunction",
+    "resource": ""
+  },
+  {
+    "key": "awsiotlorawanprotocol",
+    "resource": ""
+  },
+  {
+    "key": "awsiotmqttprotocol",
+    "resource": ""
+  },
+  {
+    "key": "awsiotoverairupdate",
+    "resource": ""
+  },
+  {
+    "key": "awsiotpolicy",
+    "resource": ""
+  },
+  {
+    "key": "awsiotreportedstate",
+    "resource": ""
+  },
+  {
+    "key": "awsiotrule",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsailboat",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsensor",
+    "resource": ""
+  },
+  {
+    "key": "awsiotservo",
+    "resource": ""
+  },
+  {
+    "key": "awsiotshadow",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsimulator",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsitewise",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsitewiseasset",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsitewiseassethierarchy",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsitewiseassetmodel",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsitewiseassetproperties",
+    "resource": ""
+  },
+  {
+    "key": "awsiotsitewisedatastreams",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingbank",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingbicycle",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingcamera",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingcar",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingcart",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingcoffeepot",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingdoorlock",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingfactory",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingfreertosdevice",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthinggeneric",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthinghouse",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthinghumiditysensor",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingindustrialpc",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthinglightbulb",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingmedicalemergency",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingplc",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingpoliceemergency",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingrelay",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingstacklight",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingtemperaturehumiditysensor",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingtemperaturesensor",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingtemperaturevibrationsensor",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingthermostat",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingtravel",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingutility",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingvibrationsensor",
+    "resource": ""
+  },
+  {
+    "key": "awsiotthingwindfarm",
+    "resource": ""
+  },
+  {
+    "key": "awsiottopic",
+    "resource": ""
+  },
+  {
+    "key": "awsiottwinmaker",
+    "resource": ""
+  },
+  {
+    "key": "awsiq",
+    "resource": ""
+  },
+  {
+    "key": "awskeymanagementservice",
+    "resource": ""
+  },
+  {
+    "key": "awskeymanagementserviceexternalkeystore",
+    "resource": ""
+  },
+  {
+    "key": "awslakeformation",
+    "resource": ""
+  },
+  {
+    "key": "awslakeformationdatalake",
+    "resource": ""
+  },
+  {
+    "key": "awslambda",
+    "resource": "aws_lambda_function"
+  },
+  {
+    "key": "awslambdalambdafunction",
+    "resource": ""
+  },
+  {
+    "key": "awslaunchwizard",
+    "resource": ""
+  },
+  {
+    "key": "awslicensemanager",
+    "resource": ""
+  },
+  {
+    "key": "awslicensemanagerapplicationdiscovery",
+    "resource": ""
+  },
+  {
+    "key": "awslicensemanagerlicenseblending",
+    "resource": ""
+  },
+  {
+    "key": "awslocalzones",
+    "resource": ""
+  },
+  {
+    "key": "awsmainframemodernization",
+    "resource": ""
+  },
+  {
+    "key": "awsmainframemodernizationanalyzer",
+    "resource": ""
+  },
+  {
+    "key": "awsmainframemodernizationcompiler",
+    "resource": ""
+  },
+  {
+    "key": "awsmainframemodernizationconverter",
+    "resource": ""
+  },
+  {
+    "key": "awsmainframemodernizationdeveloper",
+    "resource": ""
+  },
+  {
+    "key": "awsmainframemodernizationruntime",
+    "resource": ""
+  },
+  {
+    "key": "awsmanagedservices",
+    "resource": ""
+  },
+  {
+    "key": "awsmanagementconsole",
+    "resource": ""
+  },
+  {
+    "key": "awsmanagementconsole48dark",
+    "resource": ""
+  },
+  {
+    "key": "awsmanagementconsole48light",
+    "resource": ""
+  },
+  {
+    "key": "awsmarketplacedark",
+    "resource": ""
+  },
+  {
+    "key": "awsmarketplacelight",
+    "resource": ""
+  },
+  {
+    "key": "awsmigrationevaluator",
+    "resource": ""
+  },
+  {
+    "key": "awsmigrationhub",
+    "resource": ""
+  },
+  {
+    "key": "awsmigrationhubrefactorspacesapplications",
+    "resource": ""
+  },
+  {
+    "key": "awsmigrationhubrefactorspacesenvironments",
+    "resource": ""
+  },
+  {
+    "key": "awsmigrationhubrefactorspacesservices",
+    "resource": ""
+  },
+  {
+    "key": "awsnetworkfirewall",
+    "resource": ""
+  },
+  {
+    "key": "awsnetworkfirewallendpoints",
+    "resource": ""
+  },
+  {
+    "key": "awsneuron",
+    "resource": ""
+  },
+  {
+    "key": "awsnitroenclaves",
+    "resource": ""
+  },
+  {
+    "key": "awsorganizations",
+    "resource": ""
+  },
+  {
+    "key": "awsorganizationsaccount",
+    "resource": ""
+  },
+  {
+    "key": "awsorganizationsmanagementaccount",
+    "resource": ""
+  },
+  {
+    "key": "awsorganizationsorganizationalunit",
+    "resource": ""
+  },
+  {
+    "key": "awsoutpostsfamily",
+    "resource": ""
+  },
+  {
+    "key": "awsoutpostsrack",
+    "resource": ""
+  },
+  {
+    "key": "awsoutpostsservers",
+    "resource": ""
+  },
+  {
+    "key": "awspanorama",
+    "resource": ""
+  },
+  {
+    "key": "awsparallelcluster",
+    "resource": ""
+  },
+  {
+    "key": "awsparallelcomputingservice",
+    "resource": ""
+  },
+  {
+    "key": "awspaymentcryptography",
+    "resource": ""
+  },
+  {
+    "key": "awsprivate5g",
+    "resource": ""
+  },
+  {
+    "key": "awsprivatecertificateauthority",
+    "resource": ""
+  },
+  {
+    "key": "awsprivatelink",
+    "resource": ""
+  },
+  {
+    "key": "awsprofessionalservices",
+    "resource": ""
+  },
+  {
+    "key": "awsproton",
+    "resource": ""
+  },
+  {
+    "key": "awsrepost",
+    "resource": ""
+  },
+  {
+    "key": "awsrepostprivate",
+    "resource": ""
+  },
+  {
+    "key": "awsresiliencehub",
+    "resource": ""
+  },
+  {
+    "key": "awsresourceaccessmanager",
+    "resource": ""
+  },
+  {
+    "key": "awsresourceexplorer",
+    "resource": ""
+  },
+  {
+    "key": "awsrobomaker",
+    "resource": ""
+  },
+  {
+    "key": "awsrobomakercloudextensionsros",
+    "resource": ""
+  },
+  {
+    "key": "awsrobomakerdevelopmentenvironment",
+    "resource": ""
+  },
+  {
+    "key": "awsrobomakerfleetmanagement",
+    "resource": ""
+  },
+  {
+    "key": "awsrobomakersimulation",
+    "resource": ""
+  },
+  {
+    "key": "awssecretsmanager",
+    "resource": ""
+  },
+  {
+    "key": "awssecurityhub",
+    "resource": ""
+  },
+  {
+    "key": "awssecurityhubfinding",
+    "resource": ""
+  },
+  {
+    "key": "awssecurityincidentresponse",
+    "resource": ""
+  },
+  {
+    "key": "awsserverlessapplicationrepository",
+    "resource": ""
+  },
+  {
+    "key": "awsservicecatalog",
+    "resource": ""
+  },
+  {
+    "key": "awsservicemanagementconnector",
+    "resource": ""
+  },
+  {
+    "key": "awsshield",
+    "resource": ""
+  },
+  {
+    "key": "awsshieldawsshieldadvanced",
+    "resource": ""
+  },
+  {
+    "key": "awssigner",
+    "resource": ""
+  },
+  {
+    "key": "awssimspaceweaver",
+    "resource": ""
+  },
+  {
+    "key": "awssitetositevpn",
+    "resource": ""
+  },
+  {
+    "key": "awssnowball",
+    "resource": ""
+  },
+  {
+    "key": "awssnowballedge",
+    "resource": ""
+  },
+  {
+    "key": "awssnowballsnowballimportexport",
+    "resource": ""
+  },
+  {
+    "key": "awsstepfunctions",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegateway",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewayamazonfsxfilegateway",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewayamazons3filegateway",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewaycachedvolume",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewayfilegateway",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewaynoncachedvolume",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewaytapegateway",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewayvirtualtapelibrary",
+    "resource": ""
+  },
+  {
+    "key": "awsstoragegatewayvolumegateway",
+    "resource": ""
+  },
+  {
+    "key": "awssupplychain",
+    "resource": ""
+  },
+  {
+    "key": "awssupport",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanager",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerapplicationmanager",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerautomation",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerchangecalendar",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerchangemanager",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagercompliance",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerdistributor",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerdocuments",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerincidentmanager",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerinventory",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagermaintenancewindows",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanageropscenter",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerparameterstore",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerpatchmanager",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerruncommand",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagersessionmanager",
+    "resource": ""
+  },
+  {
+    "key": "awssystemsmanagerstatemanager",
+    "resource": ""
+  },
+  {
+    "key": "awstelconetworkbuilder",
+    "resource": ""
+  },
+  {
+    "key": "awsthinkboxdeadline",
+    "resource": ""
+  },
+  {
+    "key": "awsthinkboxfrost",
+    "resource": ""
+  },
+  {
+    "key": "awsthinkboxkrakatoa",
+    "resource": ""
+  },
+  {
+    "key": "awsthinkboxsequoia",
+    "resource": ""
+  },
+  {
+    "key": "awsthinkboxstoke",
+    "resource": ""
+  },
+  {
+    "key": "awsthinkboxxmesh",
+    "resource": ""
+  },
+  {
+    "key": "awstoolsandsdks",
+    "resource": ""
+  },
+  {
+    "key": "awstrainingcertification",
+    "resource": ""
+  },
+  {
+    "key": "awstransferfamily",
+    "resource": ""
+  },
+  {
+    "key": "awstransferfamilyawsas2",
+    "resource": ""
+  },
+  {
+    "key": "awstransferfamilyawsftp",
+    "resource": ""
+  },
+  {
+    "key": "awstransferfamilyawsftps",
+    "resource": ""
+  },
+  {
+    "key": "awstransferfamilyawssftp",
+    "resource": ""
+  },
+  {
+    "key": "awstransitgateway",
+    "resource": ""
+  },
+  {
+    "key": "awstransitgatewayattachment",
+    "resource": ""
+  },
+  {
+    "key": "awstrustedadvisor",
+    "resource": ""
+  },
+  {
+    "key": "awstrustedadvisorchecklist",
+    "resource": ""
+  },
+  {
+    "key": "awstrustedadvisorchecklistcost",
+    "resource": ""
+  },
+  {
+    "key": "awstrustedadvisorchecklistfaulttolerant",
+    "resource": ""
+  },
+  {
+    "key": "awstrustedadvisorchecklistperformance",
+    "resource": ""
+  },
+  {
+    "key": "awstrustedadvisorchecklistsecurity",
+    "resource": ""
+  },
+  {
+    "key": "awsusernotifications",
+    "resource": ""
+  },
+  {
+    "key": "awsverifiedaccess",
+    "resource": ""
+  },
+  {
+    "key": "awswaf",
+    "resource": ""
+  },
+  {
+    "key": "awswafbadbot",
+    "resource": ""
+  },
+  {
+    "key": "awswafbot",
+    "resource": ""
+  },
+  {
+    "key": "awswafbotcontrol",
+    "resource": ""
+  },
+  {
+    "key": "awswaffilteringrule",
+    "resource": ""
+  },
+  {
+    "key": "awswaflabels",
+    "resource": ""
+  },
+  {
+    "key": "awswafmanagedrule",
+    "resource": ""
+  },
+  {
+    "key": "awswafrule",
+    "resource": ""
+  },
+  {
+    "key": "awswavelength",
+    "resource": ""
+  },
+  {
+    "key": "awswellarchitectedtool",
+    "resource": ""
+  },
+  {
+    "key": "awswickr",
+    "resource": ""
+  },
+  {
+    "key": "awsxray",
+    "resource": ""
+  },
+  {
+    "key": "bottlerocket",
+    "resource": ""
+  },
+  {
+    "key": "camera48dark",
+    "resource": ""
+  },
+  {
+    "key": "camera48light",
+    "resource": ""
+  },
+  {
+    "key": "chat48dark",
+    "resource": ""
+  },
+  {
+    "key": "chat48light",
+    "resource": ""
+  },
+  {
+    "key": "client48dark",
+    "resource": ""
+  },
+  {
+    "key": "client48light",
+    "resource": ""
+  },
+  {
+    "key": "coldstorage48dark",
+    "resource": ""
+  },
+  {
+    "key": "coldstorage48light",
+    "resource": ""
+  },
+  {
+    "key": "credentials48dark",
+    "resource": ""
+  },
+  {
+    "key": "credentials48light",
+    "resource": ""
+  },
+  {
+    "key": "database48dark",
+    "resource": ""
+  },
+  {
+    "key": "database48light",
+    "resource": ""
+  },
+  {
+    "key": "datastream48dark",
+    "resource": ""
+  },
+  {
+    "key": "datastream48light",
+    "resource": ""
+  },
+  {
+    "key": "datatable48dark",
+    "resource": ""
+  },
+  {
+    "key": "datatable48light",
+    "resource": ""
+  },
+  {
+    "key": "disk48dark",
+    "resource": ""
+  },
+  {
+    "key": "disk48light",
+    "resource": ""
+  },
+  {
+    "key": "document48dark",
+    "resource": ""
+  },
+  {
+    "key": "document48light",
+    "resource": ""
+  },
+  {
+    "key": "documents48dark",
+    "resource": ""
+  },
+  {
+    "key": "documents48light",
+    "resource": ""
+  },
+  {
+    "key": "elasticfabricadapter",
+    "resource": ""
+  },
+  {
+    "key": "elasticloadbalancing",
+    "resource": ""
+  },
+  {
+    "key": "elasticloadbalancingapplicationloadbalancer",
+    "resource": ""
+  },
+  {
+    "key": "elasticloadbalancingclassicloadbalancer",
+    "resource": ""
+  },
+  {
+    "key": "elasticloadbalancinggatewayloadbalancer",
+    "resource": ""
+  },
+  {
+    "key": "elasticloadbalancingnetworkloadbalancer",
+    "resource": ""
+  },
+  {
+    "key": "email48dark",
+    "resource": ""
+  },
+  {
+    "key": "email48light",
+    "resource": ""
+  },
+  {
+    "key": "firewall48dark",
+    "resource": ""
+  },
+  {
+    "key": "firewall48light",
+    "resource": ""
+  },
+  {
+    "key": "folder48dark",
+    "resource": ""
+  },
+  {
+    "key": "folder48light",
+    "resource": ""
+  },
+  {
+    "key": "folders48dark",
+    "resource": ""
+  },
+  {
+    "key": "folders48light",
+    "resource": ""
+  },
+  {
+    "key": "forums48dark",
+    "resource": ""
+  },
+  {
+    "key": "forums48light",
+    "resource": ""
+  },
+  {
+    "key": "freertos",
+    "resource": ""
+  },
+  {
+    "key": "gear48dark",
+    "resource": ""
+  },
+  {
+    "key": "gear48light",
+    "resource": ""
+  },
+  {
+    "key": "genericapplication48dark",
+    "resource": ""
+  },
+  {
+    "key": "genericapplication48light",
+    "resource": ""
+  },
+  {
+    "key": "gitrepository48dark",
+    "resource": ""
+  },
+  {
+    "key": "gitrepository48light",
+    "resource": ""
+  },
+  {
+    "key": "globe48dark",
+    "resource": ""
+  },
+  {
+    "key": "globe48light",
+    "resource": ""
+  },
+  {
+    "key": "internet48dark",
+    "resource": ""
+  },
+  {
+    "key": "internet48light",
+    "resource": ""
+  },
+  {
+    "key": "internetalt148dark",
+    "resource": ""
+  },
+  {
+    "key": "internetalt148light",
+    "resource": ""
+  },
+  {
+    "key": "internetalt248dark",
+    "resource": ""
+  },
+  {
+    "key": "internetalt248light",
+    "resource": ""
+  },
+  {
+    "key": "jsonscript48dark",
+    "resource": ""
+  },
+  {
+    "key": "jsonscript48light",
+    "resource": ""
+  },
+  {
+    "key": "logs48dark",
+    "resource": ""
+  },
+  {
+    "key": "logs48light",
+    "resource": ""
+  },
+  {
+    "key": "magnifyingglass48dark",
+    "resource": ""
+  },
+  {
+    "key": "magnifyingglass48light",
+    "resource": ""
+  },
+  {
+    "key": "metrics48dark",
+    "resource": ""
+  },
+  {
+    "key": "metrics48light",
+    "resource": ""
+  },
+  {
+    "key": "mobileclient48dark",
+    "resource": ""
+  },
+  {
+    "key": "mobileclient48light",
+    "resource": ""
+  },
+  {
+    "key": "multimedia48dark",
+    "resource": ""
+  },
+  {
+    "key": "multimedia48light",
+    "resource": ""
+  },
+  {
+    "key": "niceenginframe",
+    "resource": ""
+  },
+  {
+    "key": "officebuilding48dark",
+    "resource": ""
+  },
+  {
+    "key": "officebuilding48light",
+    "resource": ""
+  },
+  {
+    "key": "open3dengine",
+    "resource": ""
+  },
+  {
+    "key": "oracledatabaseataws",
+    "resource": ""
+  },
+  {
+    "key": "programminglanguage48dark",
+    "resource": ""
+  },
+  {
+    "key": "programminglanguage48light",
+    "resource": ""
+  },
+  {
+    "key": "pytorchonaws",
+    "resource": ""
+  },
+  {
+    "key": "question48dark",
+    "resource": ""
+  },
+  {
+    "key": "question48light",
+    "resource": ""
+  },
+  {
+    "key": "recover48dark",
+    "resource": ""
+  },
+  {
+    "key": "recover48light",
+    "resource": ""
+  },
+  {
+    "key": "redhatopenshiftserviceonaws",
+    "resource": ""
+  },
+  {
+    "key": "reservedinstancereporting",
+    "resource": ""
+  },
+  {
+    "key": "samltoken48dark",
+    "resource": ""
+  },
+  {
+    "key": "samltoken48light",
+    "resource": ""
+  },
+  {
+    "key": "savingsplans",
+    "resource": ""
+  },
+  {
+    "key": "sdk48dark",
+    "resource": ""
+  },
+  {
+    "key": "sdk48light",
+    "resource": ""
+  },
+  {
+    "key": "server48dark",
+    "resource": ""
+  },
+  {
+    "key": "server48light",
+    "resource": ""
+  },
+  {
+    "key": "servers48dark",
+    "resource": ""
+  },
+  {
+    "key": "servers48light",
+    "resource": ""
+  },
+  {
+    "key": "shield48dark",
+    "resource": ""
+  },
+  {
+    "key": "shield48light",
+    "resource": ""
+  },
+  {
+    "key": "sourcecode48dark",
+    "resource": ""
+  },
+  {
+    "key": "sourcecode48light",
+    "resource": ""
+  },
+  {
+    "key": "sslpadlock48dark",
+    "resource": ""
+  },
+  {
+    "key": "sslpadlock48light",
+    "resource": ""
+  },
+  {
+    "key": "tapestorage48dark",
+    "resource": ""
+  },
+  {
+    "key": "tapestorage48light",
+    "resource": ""
+  },
+  {
+    "key": "tensorflowonaws",
+    "resource": ""
+  },
+  {
+    "key": "toolkit48dark",
+    "resource": ""
+  },
+  {
+    "key": "toolkit48light",
+    "resource": ""
+  },
+  {
+    "key": "user48dark",
+    "resource": ""
+  },
+  {
+    "key": "user48light",
+    "resource": ""
+  },
+  {
+    "key": "users48dark",
+    "resource": ""
+  },
+  {
+    "key": "users48light",
+    "resource": ""
+  }
+]
