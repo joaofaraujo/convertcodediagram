@@ -49,7 +49,9 @@ def generate_icons_json(filename="icones.json"):
         png_path = svg_path[:-4] + ".png" if svg_path.lower().endswith(".svg") else svg_path
         output.append({
             "key": key,
-            "resource": ""
+            "resource": "",
+            "svg_path": svg_path,
+            "png_path": png_path,
         })
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
@@ -83,7 +85,7 @@ def delete_16_32_64_icons(base_dir="icons_aws"):
 def main():
     print("funcionalidades comentadas")
     #generate_icons_markdown("icones.md")
-    #generate_icons_json("icones.json")
+    generate_icons_json("icones.json")
     #delete_16_32_64_icons()
     #fetch_aws_resources_md()
 
