@@ -22,8 +22,17 @@ def get_icon_by_field(field, service_icons, key):
         if icon.get(field) == key:
             return icon
     return None
-  
 
+def parse_resource_reference(ref_str):
+    """
+    Recebe uma string como 'aws_iam_policy.dynamodb_policy.arn' e retorna
+    {'type': 'aws_iam_policy', 'name': 'dynamodb_policy'}
+    """
+    parts = ref_str.split('.')
+    if len(parts) >= 2:
+        return {'type': parts[0], 'name': parts[1]}
+    return None
+    
 def chain_to_drawio(service_icons, chain, filename="output.drawio"):
     services = [s.strip().lower() for s in chain.split(">")]
     cells = []
@@ -67,17 +76,21 @@ def chain_to_drawio(service_icons, chain, filename="output.drawio"):
 def chain_from_terraform_with_icons(service_icons, filename_tf="infra/main.tf", icons_json="icones.json", filename_drawio="output_from_tf.drawio"):
     """
     Lê o arquivo main.tf, busca ícones correspondentes em icones.json (pelo campo resource) e gera um chain drawio.
+    Agora considera o tipo e o nome do resource.
     """
     with open(filename_tf, "r", encoding="utf-8") as f:
         tf_content = f.read()
-    resource_pattern = re.compile(r'resource\s+"(aws_[a-z0-9_]+)"', re.IGNORECASE)
-    services = resource_pattern.findall(tf_content)
+    
+    # Regex para pegar resource "aws_tipo" "nome"
+    resource_pattern = re.compile(r'resource\s+"(aws_[a-z0-9_]+)"\s+"([a-zA-Z0-9_\-]+)"', re.IGNORECASE)
+    matches = resource_pattern.findall(tf_content)
+    services = []
+    for tipo, nome in matches:
+      services.append({'tipo': tipo, 'nome': nome})
     if not services:
         print("Nenhum resource AWS encontrado no main.tf.")
         return
-  
-    # Cria um dicionário para lookup rápido pelo campo 'resource'
-    icon_by_resource = {icon.get("resource", ""): icon for icon in service_icons if icon.get("resource")}
+    
     cells = []
     edges = []
     x = 80
@@ -85,12 +98,14 @@ def chain_from_terraform_with_icons(service_icons, filename_tf="infra/main.tf", 
     width = 40
     height = 40
     ids = []
-    for idx, resource in enumerate(services):
+    
+    for idx, resource_ref in enumerate(services):
         cell_id = f"n{idx}"
         ids.append(cell_id)
-        icon = get_icon_by_field("resource", service_icons, resource)
+        # resource_ref é tipo.nome, então buscamos pelo campo resource
+        icon = get_icon_by_field("resource", service_icons, resource_ref['tipo'])
         if not icon:
-            print(f"Resource '{resource}' não encontrado em icones.json.")
+            print(f"Resource '{resource_ref['tipo']}' não encontrado em icones.json.")
             continue
         svg_path = icon["svg_path"]
         display_name = icon["key"]
@@ -100,8 +115,10 @@ def chain_from_terraform_with_icons(service_icons, filename_tf="infra/main.tf", 
         style = f'shape=image;image=data:image/svg+xml,{svg_b64};'
         cells.append(make_cell(cell_id, display_name, x, y, width, height, style))
         x += 120
+      
     for i in range(len(ids)-1):
         edges.append(make_edge(f"e{i}", ids[i], ids[i+1]))
+        
     xml = f'''<mxfile>\n  <diagram name="Page-1" id="aws-chain">\n    <mxGraphModel dx="1000" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">\n      <root>\n        <mxCell id="0" />\n        <mxCell id="1" parent="0" />\n        {''.join(cells)}\n        {''.join(edges)}\n      </root>\n    </mxGraphModel>\n  </diagram>\n</mxfile>\n'''
     with open(filename_drawio, "w", encoding="utf-8") as f:
         f.write(xml)
