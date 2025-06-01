@@ -105,8 +105,8 @@ def generate_icons_markdown(filename="icones.md"):
             display_name = os.path.basename(svg_path)
             # Troca extensão para .png para o preview
             png_path = svg_path[:-4] + ".png" if svg_path.lower().endswith(".svg") else svg_path
-            # Caminho relativo para o markdown
-            rel_png_path = os.path.relpath(png_path)
+            # Caminho relativo para o markdown, sempre com barra normal
+            rel_png_path = os.path.relpath(png_path).replace("\\", "/")
             f.write(f"| {key} | {display_name} | ![]({rel_png_path}) |\n")
 
 def delete_16_32_64_icons(base_dir="icons_aws"):
